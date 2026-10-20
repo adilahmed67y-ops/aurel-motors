@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#111310">
+    <meta name="description" content="Discover your next exceptional drive at AUREL Motors. Explore our curated collection of premium vehicles.">
+    <title>AUREL Motors — Find your next drive</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="Aurel Motors home">
+        <span class="brand-mark">A</span>
+        <span>AUREL<span class="brand-light"> MOTORS</span></span>
+      </a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#collection">Our collection</a>
+        <a href="#experience">The Aurel difference</a>
+        <a href="#visit">Visit us</a>
+      </nav>
+      <a class="header-cta" href="#visit">Book a visit <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-image" role="img" aria-label="Premium sports car on a mountain road"></div>
+        <div class="hero-shade"></div>
+        <div class="hero-content page-width">
+          <p class="eyebrow"><span class="eyebrow-line"></span> A DIFFERENT KIND OF DRIVE</p>
+          <h1>Find your<br>next <em>drive.</em></h1>
+          <p class="hero-copy">Considered cars. Unhurried conversations.<br>Your next chapter starts here.</p>
+          <a href="#collection" class="button button-light">Explore the collection <span aria-hidden="true">↘</span></a>
+        </div>
+        <div class="hero-caption"><span>01</span> / AUREL COLLECTION — 2025</div>
+        <a class="scroll-cue" href="#collection" aria-label="Scroll to collection"><span></span> SCROLL TO DISCOVER</a>
+      </section>
+
+      <section class="intro page-width" id="experience">
+        <p class="eyebrow eyebrow-dark"><span class="eyebrow-line"></span> MORE THAN A SHOWROOM</p>
+        <div class="intro-content">
+          <h2>Good cars deserve<br><em>good people.</em></h2>
+          <div class="intro-note">
+            <p>We bring together a handpicked collection of exceptional cars and a team who care about the details as much as you do.</p>
+            <a class="text-link" href="#visit">Get to know us <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="stats">
+          <div><strong>12<span>+</span></strong><span>Years finding the right fit</span></div>
+          <div><strong>240</strong><span>Cars thoughtfully delivered</span></div>
+          <div><strong>4.9<span>/5</span></strong><span>From people who drove away</span></div>
+        </div>
+      </section>
+
+      <section class="collection-section" id="collection">
+        <div class="page-width">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow eyebrow-dark"><span class="eyebrow-line"></span> THE CURRENT LINEUP</p>
+              <h2>A few worth<br><em>a closer look.</em></h2>
+            </div>
+            <p class="section-side-note">A considered collection, chosen for the way it makes you feel—not just the way it looks.</p>
+          </div>
+          <div class="collection-toolbar">
+            <div class="filters" role="group" aria-label="Filter cars by type">
+              <button class="filter-button is-active" data-filter="all">All cars <span>06</span></button>
+              <button class="filter-button" data-filter="sport">Sport</button>
+              <button class="filter-button" data-filter="suv">SUV</button>
+              <button class="filter-button" data-filter="electric">Electric</button>
+            </div>
+            <label class="search-box">
+              <span class="sr-only">Search cars</span>
+              <span aria-hidden="true">⌕</span>
+              <input id="car-search" type="search" placeholder="Find a car">
+            </label>
+          </div>
+
+          <div class="car-grid" id="car-grid">
+            <article class="car-card" data-category="sport" data-name="Porsche 911 Carrera">
+              <div class="car-photo photo-one">
+                <span class="car-tag">JUST ARRIVED</span>
+                <button class="save-button" aria-label="Save Porsche 911 Carrera" aria-pressed="false">♡</button>
+              </div>
+              <div class="car-info">
+                <div class="car-title"><div><p>PORSCHE</p><h3>911 Carrera</h3></div><span class="car-year">2024</span></div>
+                <div class="car-specs"><span>3.0L Flat-six</span><span>7,200 mi</span><span>Automatic</span></div>
+                <div class="car-price"><strong>$128,900</strong><button class="arrow-button" aria-label="Ask about Porsche 911 Carrera">↗</button></div>
+              </div>
+            </article>
+            <article class="car-card" data-category="suv" data-name="Range Rover Sport">
+              <div class="car-photo photo-two">
+                <span class="car-tag">AUREL PICK</span>
+                <button class="save-button" aria-label="Save Range Rover Sport" aria-pressed="false">♡</button>
+              </div>
+              <div class="car-info">
+                <div class="car-title"><div><p>LAND ROVER</p><h3>Range Rover Sport</h3></div><span class="car-year">2023</span></div>
+                <div class="car-specs"><span>3.0L Inline-six</span><span>12,400 mi</span><span>Automatic</span></div>
+                <div class="car-price"><strong>$96,500</strong><button class="arrow-button" aria-label="Ask about Range Rover Sport">↗</button></div>
+              </div>
+            </article>
+            <article class="car-card" data-category="electric" data-name="Audi e-tron GT">
+              <div class="car-photo photo-three">
+                <span class="car-tag">ALL ELECTRIC</span>
+                <button class="save-button" aria-label="Save Audi e-tron GT" aria-pressed="false">♡</button>
+              </div>
+              <div class="car-info">
+                <div class="car-title"><div><p>AUDI</p><h3>e-tron GT</h3></div><span class="car-year">2024</span></div>
+                <div class="car-specs"><span>Dual electric</span><span>3,100 mi</span><span>Automatic</span></div>
+                <div class="car-price"><strong>$112,400</strong><button class="arrow-button" aria-label="Ask about Audi e-tron GT">↗</button></div>
+              </div>
+            </article>
+            <article class="car-card" data-category="sport" data-name="BMW M4 Competition">
+              <div class="car-photo photo-four">
+                <button class="save-button" aria-label="Save BMW M4 Competition" aria-pressed="false">♡</button>
+              </div>
+              <div class="car-info">
+                <div class="car-title"><div><p>BMW</p><h3>M4 Competition</h3></div><span class="car-year">2023</span></div>
+                <div class="car-specs"><span>3.0L Twin-turbo</span><span>9,800 mi</span><span>Automatic</span></div>
+                <div class="car-price"><strong>$78,900</strong><button class="arrow-button" aria-label="Ask about BMW M4 Competition">↗</button></div>
+              </div>
+            </article>
+            <article class="car-card" data-category="suv" data-name="Mercedes-Benz G-Class">
+              <div class="car-photo photo-five">
+                <span class="car-tag">LOW MILEAGE</span>
+                <button class="save-button" aria-label="Save Mercedes-Benz G-Class" aria-pressed="false">♡</button>
+              </div>
+              <div class="car-info">
+                <div class="car-title"><div><p>MERCEDES-BENZ</p><h3>G-Class</h3></div><span class="car-year">2022</span></div>
+                <div class="car-specs"><span>4.0L V8</span><span>15,600 mi</span><span>Automatic</span></div>
+                <div class="car-price"><strong>$139,500</strong><button class="arrow-button" aria-label="Ask about Mercedes-Benz G-Class">↗</button></div>
+              </div>
+            </article>
+            <article class="car-card" data-category="electric" data-name="Tesla Model S">
+              <div class="car-photo photo-six">
+                <span class="car-tag">ALL ELECTRIC</span>
+                <button class="save-button" aria-label="Save Tesla Model S" aria-pressed="false">♡</button>
+              </div>
+              <div class="car-info">
+                <div class="car-title"><div><p>TESLA</p><h3>Model S</h3></div><span class="car-year">2024</span></div>
+                <div class="car-specs"><span>Dual electric</span><span>4,500 mi</span><span>Automatic</span></div>
+                <div class="car-price"><strong>$84,900</strong><button class="arrow-button" aria-label="Ask about Tesla Model S">↗</button></div>
+              </div>
+            </article>
+          </div>
+          <p class="empty-state" id="empty-state" hidden>No cars match that search. Try another name or category.</p>
+          <p class="inventory-note">Every Aurel car is independently inspected and ready for a closer look.</p>
+        </div>
+      </section>
+
+      <section class="visit-section" id="visit">
+        <div class="visit-photo"></div>
+        <div class="visit-content">
+          <p class="eyebrow"><span class="eyebrow-line"></span> COME SEE FOR YOURSELF</p>
+          <h2>Your next drive<br>starts with <em>hello.</em></h2>
+          <p>Drop by, take your time, and tell us what you’re looking for. We’ll put the kettle on.</p>
+          <a class="button button-light" href="mailto:hello@aurelmotors.example?subject=I'd%20love%20to%20visit">Plan your visit <span aria-hidden="true">↗</span></a>
+          <div class="visit-details">
+            <div><span>FIND US</span><p>1280 Westlake Avenue<br>Seattle, WA 98109</p></div>
+            <div><span>OPENING HOURS</span><p>Mon–Sat, 9am–6pm<br>Sunday, by appointment</p></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand" href="#" aria-label="Aurel Motors home"><span class="brand-mark">A</span><span>AUREL<span class="brand-light"> MOTORS</span></span></a>
+      <p>Good cars. Good people. Better stories.</p>
+      <span>© <span id="year"></span> Aurel Motors</span>
+    </footer>
+  </body>
+</html>
