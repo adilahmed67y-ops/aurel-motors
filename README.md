@@ -16,4 +16,4 @@ Open `index.html` in a browser. No build tools or dependencies are required.
 6. Wait for GitHub Pages to finish deploying. The site address appears on the Pages settings screen and usually looks like `https://YOUR-USERNAME.github.io/aurel-motors/`.
 
 The repository must contain `index.html` in its root for this setup. GitHub Pages hosting for a public repository is free. Replace the sample vehicle details, contact email, address, and car photos with your own before presenting.
-"# index.html" 
+"# index.html"                                                                                                                                                          
